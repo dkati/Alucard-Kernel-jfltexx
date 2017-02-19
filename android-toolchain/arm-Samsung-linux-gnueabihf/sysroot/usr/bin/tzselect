@@ -1,7 +1,7 @@
 #!/bin/bash
 
-PKGVERSION="(crosstool-NG crosstool-ng-1.22.0-234-g531eab4 - JDCTeam) "
-TZVERSION="2.23"
+PKGVERSION="(crosstool-NG crosstool-ng-1.22.0-594-geb8c902 - B--B-JDCTeam) "
+TZVERSION="2.25"
 REPORT_BUGS_TO="<http://www.gnu.org/software/libc/bugs.html>"
 
 # Ask the user about the time zone, and output the resulting TZ value to stdout.
