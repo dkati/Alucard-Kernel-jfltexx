@@ -26,7 +26,6 @@ static const struct file_operations cmdline_proc_fops = {
 
 static void remove_flag(char *cmd, const char *flag)
 {
-
 	char *start_addr, *end_addr;
 
 	/* Ensure all instances of a flag are removed */
@@ -61,3 +60,4 @@ static int __init proc_cmdline_init(void)
 	return 0;
 }
 module_init(proc_cmdline_init);
+
