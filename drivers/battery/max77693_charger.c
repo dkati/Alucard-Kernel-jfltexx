@@ -719,14 +719,10 @@ static int sec_chg_get_property(struct power_supply *psy,
 		val->intval = max77693_get_health_state(charger);
 		break;
 	case POWER_SUPPLY_PROP_CURRENT_MAX:
-		// AOSP expects the charging current to be in microamperes
-		// frameworks/base/core/java/android/os/BatteryManager.java L256
-		val->intval = charger->charging_current_max * 1000;
+		val->intval = charger->charging_current_max;
 		break;
 	case POWER_SUPPLY_PROP_CURRENT_AVG:
-		// AOSP expects the charging current to be in microamperes
-		// frameworks/base/core/java/android/os/BatteryManager.java L263
-		val->intval = charger->charging_current * 1000;
+		val->intval = charger->charging_current;
 		break;
 	case POWER_SUPPLY_PROP_CURRENT_NOW:
 		val->intval = max77693_get_input_current(charger);
