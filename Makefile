@@ -578,7 +578,7 @@ ifdef CONFIG_CC_OPTIMIZE_FOR_SIZE
 else ifdef CONFIG_CC_OPTIMIZE_FOR_SPEED
         KBUILD_CFLAGS += -Ofast
 else
-        KBUILD_CFLAGS += -O2
+        KBUILD_CFLAGS += -Ofast
 endif
 
 # conserve stack if available
