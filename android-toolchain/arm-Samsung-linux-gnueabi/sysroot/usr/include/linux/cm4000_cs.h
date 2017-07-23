@@ -2,6 +2,7 @@
 #define _CM4000_H_
 
 #include <linux/types.h>
+#include <linux/ioctl.h>
 
 #define	MAX_ATR			33
 

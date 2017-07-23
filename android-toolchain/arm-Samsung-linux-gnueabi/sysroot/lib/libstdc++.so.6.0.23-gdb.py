@@ -19,7 +19,7 @@ import gdb
 import os
 import os.path
 
-pythondir = '/home/b--b/SOURCES/jflte/builds/arm-Samsung-linux-gnueabi/share/gcc-7.1.0/python'
+pythondir = '/home/b--b/SOURCES/jflte/builds/arm-Samsung-linux-gnueabi/share/gcc-7.1.1/python'
 libdir = '/home/b--b/SOURCES/jflte/builds/arm-Samsung-linux-gnueabi/arm-Samsung-linux-gnueabi/lib'
 
 # This file might be loaded when there is no current objfile.  This
