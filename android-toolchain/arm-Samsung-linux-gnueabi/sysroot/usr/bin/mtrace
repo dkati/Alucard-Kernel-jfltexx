@@ -20,8 +20,8 @@ eval "exec /usr/bin/perl -S $0 $@"
 # License along with the GNU C Library; if not, see
 # <http://www.gnu.org/licenses/>.
 
-$VERSION = "2.25";
-$PKGVERSION = "(crosstool-NG crosstool-ng-1.23.0-146-gbcaec4d - B--B-JDCteam) ";
+$VERSION = "2.26";
+$PKGVERSION = "(crosstool-NG crosstool-ng-1.23.0-166-g434c205e - JDCTeam) ";
 $REPORT_BUGS_TO = '<http://www.gnu.org/software/libc/bugs.html>';
 $progname = $0;
 

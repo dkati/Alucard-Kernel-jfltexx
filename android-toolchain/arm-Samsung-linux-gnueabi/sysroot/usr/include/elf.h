@@ -1170,6 +1170,18 @@ typedef struct
 #define AT_L2_CACHESHAPE	36
 #define AT_L3_CACHESHAPE	37
 
+/* Shapes of the caches, with more room to describe them.
+   *GEOMETRY are comprised of cache line size in bytes in the bottom 16 bits
+   and the cache associativity in the next 16 bits.  */
+#define AT_L1I_CACHESIZE	40
+#define AT_L1I_CACHEGEOMETRY	41
+#define AT_L1D_CACHESIZE	42
+#define AT_L1D_CACHEGEOMETRY	43
+#define AT_L2_CACHESIZE		44
+#define AT_L2_CACHEGEOMETRY	45
+#define AT_L3_CACHESIZE		46
+#define AT_L3_CACHEGEOMETRY	47
+
 /* Note section contents.  Each entry in the note section begins with
    a header of a fixed form.  */
 
@@ -2532,9 +2544,10 @@ enum
 #define DT_PPC64_OPT	(DT_LOPROC + 3)
 #define DT_PPC64_NUM    4
 
-/* PowerPC64 specific values for the DT_PPC64_OPT Dyn entry.  */
+/* PowerPC64 specific bits in the DT_PPC64_OPT Dyn entry.  */
 #define PPC64_OPT_TLS		1
 #define PPC64_OPT_MULTI_TOC	2
+#define PPC64_OPT_LOCALENTRY	4
 
 /* PowerPC64 specific values for the Elf64_Sym st_other field.  */
 #define STO_PPC64_LOCAL_BIT	5

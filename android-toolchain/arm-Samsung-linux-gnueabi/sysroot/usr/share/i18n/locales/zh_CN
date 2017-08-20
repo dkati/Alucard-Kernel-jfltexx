@@ -148,6 +148,8 @@ END LC_TIME
 LC_MESSAGES
 yesexpr "<U005E><U005B><U002B><U0031><U0079><U0059><U662F><U005D>"
 noexpr  "<U005E><U005B><U002D><U0030><U006E><U004E><U4E0D><U5426><U005D>"
+yesstr  "<U662F>"
+nostr   "<U4E0D><U662F>"
 END LC_MESSAGES
 
 LC_PAPER
@@ -182,7 +184,7 @@ country_ab2	"<U0043><U004E>"
 country_ab3	"<U0043><U0048><U004E>"
 country_num	156
 country_car "<U0043><U0048><U004E>"
-country_isbn	"<U0037>"
+country_isbn	7
 lang_name	"<U4E2D><U6587>"
 lang_ab		"<U007A><U0068>"
 lang_term	"<U007A><U0068><U006F>"

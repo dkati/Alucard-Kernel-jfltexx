@@ -23,6 +23,7 @@
 #define LIBNSS_NISPLUS_SO               "libnss_nisplus.so.2"
 #define LIBNSS_NIS_SO                   "libnss_nis.so.2"
 #define LIBNSS_TEST1_SO                 "libnss_test1.so.2"
+#define LIBNSS_TEST2_SO                 "libnss_test2.so.2"
 #define LIBPTHREAD_SO                   "libpthread.so.0"
 #define LIBRESOLV_SO                    "libresolv.so.2"
 #define LIBRT_SO                        "librt.so.1"

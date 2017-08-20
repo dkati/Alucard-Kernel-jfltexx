@@ -26,7 +26,7 @@ escape_char /
 LC_IDENTIFICATION
 title      "Luganda locale for Uganda"
 source     "Akademe ya Luganda"
-address    "c/o P.O. Box 5190 Kampala, Uganda"
+address    "c//o P.O. Box 5190 Kampala, Uganda"
 contact    "Kizito Birabwa"
 email      "kompyuta@kizito.uklinux.net"
 tel        ""
@@ -157,7 +157,7 @@ day         "<U0053><U0061><U0062><U0069><U0069><U0074><U0069>";/
 %
 abmon       "<U004A><U0061><U006E>";"<U0046><U0065><U0062>";/
             "<U004D><U0061><U0072>";"<U0041><U0070><U0075>";/
-            "<U004D><U0061><U0061>";"<U004A><U0075><U006E>";/
+            "<U004D><U0061><U0061>";"<U004A><U0075><U0075>";/
             "<U004A><U0075><U006C>";"<U0041><U0067><U0075>";/
             "<U0053><U0065><U0062>";"<U004F><U006B><U0069>";/
             "<U004E><U006F><U0076>";"<U0044><U0065><U0073>"
@@ -171,7 +171,7 @@ mon         "<U004A><U0061><U006E><U0077><U0061><U006C><U0069><U0079><U006F>";/
             "<U0041><U0070><U0075><U006C><U0069>";/
             "<U004D><U0061><U0061><U0079><U0069>";/
             "<U004A><U0075><U0075><U006E><U0069>";/
-            "<U004A><U0075><U006C><U0061><U0061><U0069>";/
+            "<U004A><U0075><U006C><U0061><U0061><U0079><U0069>";/
             "<U0041><U0067><U0075><U0073><U0069><U0074><U006F>";/
             "<U0053><U0065><U0062><U0075><U0074><U0074><U0065><U006D><U0062><U0061>";/
             "<U004F><U006B><U0069><U0074><U006F><U0062><U0062><U0061>";/
@@ -223,25 +223,25 @@ copy "i18n"
 END LC_PAPER
 
 LC_TELEPHONE
-tel_int_fmt    "<U002B><U0025><U0063><U0020><U0025><U0061><U0020><U0025>/
-<U006C>"
 % Representation of telephone number for international use -
 % "+%c %a %l", which is
 % "+country code",
 % "area code without the prefix (often 0)",
 % "local number".
-%
-tel_dom_fmt    "<U0025><U0061><U0020><U0025><U006C>"
-% Represntation of telephone number for domestic use -
+tel_int_fmt    "<U002B><U0025><U0063><U0020><U0025><U0061><U0020><U0025>/
+<U006C>"
+
+% Representation of telephone number for domestic use -
 % "%a %l", which is
 % "area code, local number".
-%
-int_select     "<U0030><U0030>"
-% Digits used in Uganda to dial international - "00".
-%
-int_prefix     "<U0032><U0035><U0036>"
+tel_dom_fmt    "<U0025><U0061><U0020><U0025><U006C>"
+
+% Digits used in Uganda to dial international - "000".
+int_select   "<U0030><U0030><U0030>"
+
 % International prefix for Uganda - "256"
-%
+int_prefix     "<U0032><U0035><U0036>"
+
 END LC_TELEPHONE
 
 LC_MEASUREMENT
@@ -318,7 +318,7 @@ country_num 800
 % EAU
 country_car    "<U0045><U0041><U0055>"
 % Oluganda
-lang_name    "<U004F><U006C><U0075><U0067><U0061><U006E><U0064><U0061>"
+lang_name    "<U004C><U0075><U0067><U0061><U006E><U0064><U0061>"
 % lg
 lang_ab      "<U006C><U0067>"
 % lug

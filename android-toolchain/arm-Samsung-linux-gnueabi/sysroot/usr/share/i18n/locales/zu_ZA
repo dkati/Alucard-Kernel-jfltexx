@@ -110,29 +110,29 @@ day         "<U0069><U0053><U006F><U006E><U0074><U006F>";/
             "<U0075><U004D><U0067><U0071><U0069><U0062><U0065><U006C><U006F>"
 
 % abmon - The abbreviations for the months
-% - Mas, Ola, Nda, Mba, Aba, Ang, Ntu, Ncw, Man, Mfu, Lwe, Zib
-abmon       "<U004D><U0061><U0073>";"<U004F><U006C><U0061>";/
-            "<U004E><U0064><U0061>";"<U004D><U0062><U0061>";/
-            "<U0041><U0062><U0061>";"<U0041><U006E><U0067>";/
-            "<U004E><U0074><U0075>";"<U004E><U0063><U0077>";/
-            "<U004D><U0061><U006E>";"<U004D><U0066><U0075>";/
-            "<U004C><U0077><U0065>";"<U005A><U0069><U0062>"
+% - Jan, Feb, Mas, Eph, Mey, Jun, Jul, Aga, Sep, Okt, Nov, Dis
+abmon       "<U004A><U0061><U006E>";"<U0046><U0065><U0062>";/
+            "<U004D><U0061><U0073>";"<U0045><U0070><U0068>";/
+            "<U004D><U0065><U0079>";"<U004A><U0075><U006E>";/
+            "<U004A><U0075><U006C>";"<U0041><U0067><U0061>";/
+            "<U0053><U0065><U0070>";"<U004F><U006B><U0074>";/
+            "<U004E><U006F><U0076>";"<U0044><U0069><U0073>"
 
 % mon - The full names of the months -
-% - uMasingana, uNhlolanja, uNdasa, uMbasa, uNhlaba, uNhlangulana
-%   uNtulikazi, uNcwaba, uMandulo, uMfumfu, uLwezi, uZibandlela
-mon         "<U0075><U004D><U0061><U0073><U0069><U006E><U0067><U0061><U006E><U0061>";/
-            "<U0075><U004E><U0068><U006C><U006F><U006C><U0061><U006E><U006A><U0061>";/
-            "<U0075><U004E><U0064><U0061><U0073><U0061>";/
-            "<U0075><U004D><U0062><U0061><U0073><U0061>";/
-            "<U0075><U004E><U0068><U006C><U0061><U0062><U0061>";/
-            "<U0075><U004E><U0068><U006C><U0061><U006E><U0067><U0075><U006C><U0061><U006E><U0061>";/
-            "<U0075><U004E><U0074><U0075><U006C><U0069><U006B><U0061><U007A><U0069>";/
-            "<U0075><U004E><U0063><U0077><U0061><U0062><U0061>";/
-            "<U0075><U004D><U0061><U006E><U0064><U0075><U006C><U006F>";/
-            "<U0075><U004D><U0066><U0075><U006D><U0066><U0075>";/
-            "<U0075><U004C><U0077><U0065><U007A><U0069>";/
-            "<U0075><U005A><U0069><U0062><U0061><U006E><U0064><U006C><U0065><U006C><U0061>"
+% - Januwari, Februwari, Mashi, Ephreli, Meyi, Juni
+%   Julayi, Agasti, Septhemba, Okthoba, Novemba, Disemba
+mon         "<U004A><U0061><U006E><U0075><U0077><U0061><U0072><U0069>";/
+            "<U0046><U0065><U0062><U0072><U0075><U0077><U0061><U0072><U0069>";/
+            "<U004D><U0061><U0073><U0068><U0069>";/
+            "<U0045><U0070><U0068><U0072><U0065><U006C><U0069>";/
+            "<U004D><U0065><U0079><U0069>";/
+            "<U004A><U0075><U006E><U0069>";/
+            "<U004A><U0075><U006C><U0061><U0079><U0069>";/
+            "<U0041><U0067><U0061><U0073><U0074><U0069>";/
+            "<U0053><U0065><U0070><U0074><U0068><U0065><U006D><U0062><U0061>";/
+            "<U004F><U006B><U0074><U0068><U006F><U0062><U0061>";/
+            "<U004E><U006F><U0076><U0065><U006D><U0062><U0061>";/
+            "<U0044><U0069><U0073><U0065><U006D><U0062><U0061>"
 
 % Abreviated date and time representation to be referenced by the "%c" field descriptor -
 d_t_fmt     "<U0025><U0061><U0020><U0025><U0064><U0020><U0025><U0062><U0020><U0025><U0059><U0020><U0025><U0054><U0020><U0025><U005A>"
@@ -215,7 +215,7 @@ country_name "<U0069><U002D><U0053><U006F><U0075><U0074><U0068><U0020><U0041><U0
 country_post "<U005A><U0041>"
 % Abbreviated country postal name - "ZA"
 %
-lang_name "<U0049><U0073><U0069><U005A><U0075><U006C><U0075>"
+lang_name "<U0069><U0073><U0069><U005A><U0075><U006C><U0075>"
 % Language name in Zulu - "IsiZulu"
 
 % UN Geneve 1949:68 Distinguishing signs of vehicles in international traffic

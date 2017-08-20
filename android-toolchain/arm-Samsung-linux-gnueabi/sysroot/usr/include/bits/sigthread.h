@@ -20,10 +20,11 @@
 #define _BITS_SIGTHREAD_H	1
 
 #if !defined _SIGNAL_H && !defined _PTHREAD_H
-# error "Never include this file directly.  Use <pthread.h> instead"
+# error "Never include this file directly.  Use <signal.h> instead"
 #endif
 
 /* Functions for handling signals. */
+#include <bits/types/__sigset_t.h>
 
 /* Modify the signal mask for the calling thread.  The arguments have
    the same meaning as for sigprocmask(2). */

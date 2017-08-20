@@ -136,6 +136,8 @@ LC_TELEPHONE
 tel_int_fmt    "<U002B><U0025><U0063><U0020><U0025><U0061><U0020><U0025>/
 <U006C>"
 int_prefix     "<U0033><U0035><U0032>"
+% 00
+int_select  "<U0030><U0030>"
 END LC_TELEPHONE
 
 LC_MEASUREMENT
@@ -160,7 +162,7 @@ country_num 442
 % L
 country_car    "<U004C>"
 % Français
-lang_name "<U0046><U0072><U0061><U006E><U00E7><U0061><U0069><U0073>"
+lang_name "<U0066><U0072><U0061><U006E><U00E7><U0061><U0069><U0073>"
 % fr
 lang_ab      "<U0066><U0072>"
 % fra

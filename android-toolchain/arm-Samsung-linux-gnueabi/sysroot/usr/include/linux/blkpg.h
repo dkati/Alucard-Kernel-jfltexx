@@ -1,5 +1,5 @@
-#ifndef __LINUX_BLKPG_H
-#define __LINUX_BLKPG_H
+#ifndef _LINUX_BLKPG_H
+#define _LINUX_BLKPG_H
 
 /*
  * Partition table and disk geometry handling
@@ -40,7 +40,6 @@ struct blkpg_ioctl_arg {
 /* The subfunctions (for the op field) */
 #define BLKPG_ADD_PARTITION	1
 #define BLKPG_DEL_PARTITION	2
-#define BLKPG_RESIZE_PARTITION	3
 
 /* Sizes of name fields. Unused at present. */
 #define BLKPG_DEVNAMELTH	64
@@ -56,4 +55,4 @@ struct blkpg_partition {
 	char volname[BLKPG_VOLNAMELTH];	/* volume label */
 };
 
-#endif /* __LINUX_BLKPG_H */
+#endif /* _LINUX_BLKPG_H */

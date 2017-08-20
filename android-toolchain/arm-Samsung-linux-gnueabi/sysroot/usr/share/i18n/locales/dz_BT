@@ -629,8 +629,8 @@ END LC_MESSAGES
 LC_TELEPHONE
 tel_int_fmt    "<U002B><U0025><U0063><U0020><U0025><U0061><U0020><U0025><U006C>"
 % tel_dom_fmt    "<U0030><U002D><U0025><U0061><U0025><U006C>"
-% int_select     "<U0030><U0030><U0031>"
 int_prefix     "<U0039><U0037><U0035>"
+int_select     "<U0030><U0030>"
 END LC_TELEPHONE
 
 LC_PAPER
@@ -667,7 +667,7 @@ country_car "<U0042><U0048><U0054>"
 %FIXME
 %country_isbn  ""
 % རྫོང་ཁ
-lang_name    "<U0028><U0F62><U0FAB><U0F7C><U0F44><U0F0B><U0F41>"
+lang_name    "<U0F62><U0FAB><U0F7C><U0F44><U0F0B><U0F41>"
 % dz
 lang_ab      "<U0064><U007A>"
 % dzo

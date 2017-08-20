@@ -25,7 +25,7 @@ escape_char /
 LC_IDENTIFICATION
 title      "Spanish locale for Cuba"
 source     ""
-address    "San Antonio de los Ba<U00F8>os Highway, Kilometer 1 1/2, University of Informatic Sciences "
+address    "San Antonio de los Ba<U00F8>os Highway, Kilometer 1 1//2, University of Informatic Sciences "
 contact    ""
 email      "bug-glibc-locales@gnu.org"
 tel        ""
@@ -134,9 +134,11 @@ copy "i18n"
 END LC_PAPER
 
 LC_TELEPHONE
-tel_int_fmt    "<U002B><U0025><U0063><U0020><U0025><U0061><U0020><U0025>/
+tel_int_fmt   "<U002B><U0025><U0063><U0020><U0025><U0061><U0020><U0025>/
 <U006C>"
-int_prefix     "<U0035><U0033>"
+% 119
+int_select    "<U0031><U0031><U0039>"
+int_prefix    "<U0035><U0033>"
 END LC_TELEPHONE
 
 LC_MEASUREMENT
@@ -161,7 +163,7 @@ country_num   192
 % C
 country_car    "<U0043>"
 % Español
-lang_name     "<U0045><U0073><U0070><U0061><U00F1><U006F><U006C>"
+lang_name     "<U0065><U0073><U0070><U0061><U00F1><U006F><U006C>"
 % es
 lang_ab      "<U0065><U0073>"
 % spa
